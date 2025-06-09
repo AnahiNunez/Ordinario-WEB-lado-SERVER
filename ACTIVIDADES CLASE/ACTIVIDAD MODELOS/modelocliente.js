@@ -1,4 +1,3 @@
-// Asegúrate de que la ruta a tu archivo database.js sea correctaconst { DataTypes } = require('sequelize');
 const sequelize = require('../basedatos');
 
 const Cliente = sequelize.define('Cliente', {
