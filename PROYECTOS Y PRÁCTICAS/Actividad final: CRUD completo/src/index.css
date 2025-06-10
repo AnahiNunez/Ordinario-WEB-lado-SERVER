@@ -1,0 +1,88 @@
+/* Estilos globales */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fce4ec; /* Rosa pastel */
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Contenedor principal */
+#root {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 105, 180, 0.2); /* Sombra rosa */
+}
+
+/* Título principal */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e91e63; /* Rosa intenso */
+}
+
+/* Estilos del formulario */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 2px solid #f8bbd0; /* Borde rosado */
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #fff0f6; /* Fondo suave */
+}
+
+input:focus {
+  outline: none;
+  border-color: #e91e63; /* Rosa fuerte */
+}
+
+/* Botón */
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:first-of-type {
+  background-color: #ff80ab; /* Rosa chicle */
+  color: white;
+}
+
+button:last-of-type {
+  background-color: #c2185b; /* Rosa oscuro */
+  color: white;
+}
+
+/* Lista de libros */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background: #ffe0e6; /* Fondo rosa suave */
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(255, 105, 180, 0.2);
+}
+
+li strong {
+  color: #d81b60; /* Rosa intenso */
+}
+
+li button {
+  margin: 5px;
+}
